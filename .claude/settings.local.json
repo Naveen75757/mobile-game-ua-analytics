@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p notebooks data sql src && ls -la)",
+      "Bash(python -m venv .venv)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Naveen\\OneDrive\\Desktop\\mobile-game-ua-analytics"
+    ]
+  }
+}

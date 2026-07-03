@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import sys; print\\(sys.version\\)\")",
+      "Bash(python -c \"import pandas, openpyxl; print\\('pandas', pandas.__version__\\); print\\('openpyxl', openpyxl.__version__\\)\")"
+    ]
+  }
+}
