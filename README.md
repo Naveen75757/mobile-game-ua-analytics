@@ -11,7 +11,7 @@ _TBD — populate as analyses are completed._
 ## The Three Analyses
 
 1. **pLTV Model** — Predict long-term player value from early behavioral signals to guide bidding and budget allocation.
-2. _TBD_
+2. **Cookie Cats A/B Test** — Randomized experiment analysis (frequentist + Bayesian) on a progress-gate placement change, framed as an incrementality read with a go/no-go recommendation: retention is the multiplier on every UA dollar spent, so a retention-damaging product change is a hidden tax on acquisition efficiency.
 3. _TBD_
 
 ## AI-Assisted Workflow

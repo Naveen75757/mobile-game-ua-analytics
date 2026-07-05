@@ -2,7 +2,16 @@
   "permissions": {
     "allow": [
       "Bash(mkdir -p notebooks data sql src && ls -la)",
-      "Bash(python -m venv .venv)"
+      "Bash(python -m venv .venv)",
+      "Bash(\".venv/Scripts/python.exe\" -c \"import statsmodels; print\\(statsmodels.__version__\\)\")",
+      "Bash(\".venv/Scripts/python.exe\" -c \"import scipy; print\\(scipy.__version__\\)\")",
+      "Bash(.venv/Scripts/python.exe -c ' *)",
+      "Skill(dataviz)",
+      "Skill(dataviz:*)",
+      "Bash(node scripts/validate_palette.js \"#2a78d6,#1baf7a\" --mode light)",
+      "Bash(node scripts/validate_palette.js \"#3987e5,#199e70\" --mode dark)",
+      "Bash(\".venv/Scripts/python.exe\" scratch_build_nb2.py)",
+      "Bash(\".venv/Scripts/python.exe\" -m jupyter nbconvert --to notebook --execute --inplace notebooks/02_cookie_cats_ab_test.ipynb)"
     ],
     "additionalDirectories": [
       "C:\\Users\\Naveen\\OneDrive\\Desktop\\mobile-game-ua-analytics"
