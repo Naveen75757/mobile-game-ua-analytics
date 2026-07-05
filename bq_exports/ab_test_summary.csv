@@ -1,0 +1,3 @@
+version,n_users,retention_1_rate,retention_1_ci_low,retention_1_ci_high,retention_7_rate,retention_7_ci_low,retention_7_ci_high
+gate_30,44700,0.4482,0.4436,0.4528,0.1902,0.1866,0.1939
+gate_40,45489,0.4423,0.4377,0.4469,0.182,0.1785,0.1856

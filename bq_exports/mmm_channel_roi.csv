@@ -1,0 +1,5 @@
+channel,adstock_decay,saturation_alpha,impressions,assumed_spend_usd,contribution_usd,roi
+Google,0.7,1.0,55401259,443210.07,4413432.73,9.96
+Facebook,0.7,0.9,18235242,127646.69,4157423.8,32.57
+Email,0.5,1.0,44005930,4400.59,4986865.77,1133.23
+Affiliate,0.5,0.3,891276,13369.14,0.0,0.0
