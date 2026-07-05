@@ -5,6 +5,7 @@ xgboost
 matplotlib
 seaborn
 scipy
+statsmodels
 jupyter
 streamlit
 anthropic
